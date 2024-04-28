@@ -12,9 +12,10 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        <li>Git</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>Python</li>
       </ul>
     ),
   },
@@ -23,8 +24,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Fullstack Software Engineer at ALX</li>
+        <li>Holberton Tech School San Francisco, USA</li>
       </ul>
     ),
   },
@@ -33,8 +34,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>CCNA</li>
+        <li>Certified Network Analyst</li>
       </ul>
     ),
   },
@@ -60,7 +61,7 @@ const AboutSection = () => {
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
+            Sequelize, HTML, CSS, Python, C and Git. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications.
           </p>
