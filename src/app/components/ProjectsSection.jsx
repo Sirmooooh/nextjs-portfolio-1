@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
+    description: "React Portfolio Website showcases various projects and skills in a dynamic interface.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    description: "Potography Portfolio Website exhibits stunning photography portfolios with an elegant design.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "E-commerce Application",
-    description: "Project 3 description",
+    description: "E-commerce Application provides a seamless shopping experience with a wide range of products.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Food Ordering Application",
-    description: "Project 4 description",
+    description: "Food Ordering Application allows users to order food from their favorite restaurants with ease.",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
@@ -53,8 +53,26 @@ const projectsData = [
   {
     id: 6,
     title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    description: "Full-stack Roadmap guides users through essential concepts and technologies for becoming a proficient developer.",
     image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 7,
+    title: "Electronic Bus Fare Payment System",
+    description: "Electronic Bus Fare Payment System streamlines bus fare payments for commuters with an efficient online platform.",
+    image: "/images/projects/7.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 8,
+    title: "GemMarket Webapp",
+    description: "GemMarket Webapp serves as a marketplace for buying and selling gemstones, catering to gem enthusiasts worldwide.",
+    image: "/images/projects/8.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",

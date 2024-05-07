@@ -39,8 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            A proficient fullstack software engineer, adept at crafting robust and scalable solutions spanning both frontend and backend technologies to create seamless user experiences.
           </p>
           <div>
             <Link
