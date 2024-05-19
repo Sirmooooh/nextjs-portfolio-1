@@ -77,6 +77,15 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+  {
+    id: 9,
+    title: "Airbnb Clone",
+    description: "The Airbnb Clone replicates the renowned platform's functionality, enabling users to find unique accommodations and book stays worldwide.",
+    image: "/images/projects/9.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {

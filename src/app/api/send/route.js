@@ -1,16 +1,21 @@
 import { NextResponse } from "next/server";
-import { Resend } from "resend";
+const mailgun = require('mailgun-js');
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-const fromEmail = process.env.FROM_EMAIL;
+const mg = mailgun.client({
+  username: 'api', // Replace with 'api'
+  key: process.env.MAILGUN_API_KEY, // Replace with environment variable name
+});
 
-export async function POST(req, res) {
+const fromEmail = "your-sender-email@example.com"; // Replace with your sender email
+
+export async function POST(req) {
   const { email, subject, message } = await req.json();
   console.log(email, subject, message);
+
   try {
-    const data = await resend.emails.send({
+    const data = await mg.messages.create(process.env.MAILGUN_DOMAIN, {
       from: fromEmail,
-      to: [fromEmail, email],
+      to: email,
       subject: subject,
       react: (
         <>
